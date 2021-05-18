@@ -3,10 +3,7 @@
     {
       "method": "GET",
       "path": "/books",
-      "handler": "books.find",
-      "config": {
-        "policies": []
-      }
+      "handler": "books.find"
     },
     {
       "method": "GET",
