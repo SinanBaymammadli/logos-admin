@@ -3,6 +3,7 @@ services:
     name: Logos admin
     env: node
     plan: starter
+    region: frankfurt
     buildCommand: yarn; yarn build
     startCommand: rsync -a public/ /data/public/ && yarn start
     healthCheckPath: /_health
