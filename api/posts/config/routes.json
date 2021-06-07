@@ -16,10 +16,7 @@
     {
       "method": "GET",
       "path": "/posts/:id",
-      "handler": "posts.findOne",
-      "config": {
-        "policies": []
-      }
+      "handler": "posts.findOne"
     },
     {
       "method": "POST",

@@ -28,11 +28,7 @@
     "cover_image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+      "allowedTypes": ["images", "files", "videos"],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
@@ -40,11 +36,7 @@
     "detail_images": {
       "collection": "file",
       "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+      "allowedTypes": ["images", "files", "videos"],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
@@ -57,13 +49,13 @@
       "enum": [
         "Beginner",
         "Elementary",
-        "Preintermediate",
+        "Pre-Intermediate",
         "Intermediate",
-        "Upperintermediate",
+        "Upper-Intermediate",
         "Advanced",
-        "Derece1",
-        "Derece2",
-        "Derece3",
+        "Dərəcə 1",
+        "Dərəcə 2",
+        "Dərəcə 3",
         "A1",
         "A2",
         "B1",
@@ -72,23 +64,13 @@
         "C2"
       ]
     },
-    "from_lang": {
+    "lang": {
       "type": "enumeration",
       "enum": [
-        "Azerbaijani",
-        "English",
-        "Russian",
-        "German"
-      ],
-      "required": true
-    },
-    "to_lang": {
-      "type": "enumeration",
-      "enum": [
-        "Azerbaijani",
-        "English",
-        "Russian",
-        "German"
+        "İngiliscə - Azərbaycanca",
+        "Rusca - Azərbaycanca",
+        "Almanca - Azərbaycanca",
+        "İngiliscə - Rusca"
       ],
       "required": true
     },

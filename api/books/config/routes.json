@@ -16,10 +16,7 @@
     {
       "method": "GET",
       "path": "/books/:id",
-      "handler": "books.findOne",
-      "config": {
-        "policies": []
-      }
+      "handler": "books.findOne"
     },
     {
       "method": "POST",
