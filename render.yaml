@@ -3,8 +3,8 @@ services:
     name: Logos admin
     env: node
     plan: starter
-    buildCommand: yarn; yarn build
-    startCommand: rsync -a public/ /data/public/ && yarn start
+    buildCommand: npm i; npm run build
+    startCommand: rsync -a public/ /data/public/ && npm start
     healthCheckPath: /_health
     disk:
       name: strapi-data
