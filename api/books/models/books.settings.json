@@ -29,7 +29,8 @@
       "min": 0
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "cover_image": {
       "model": "file",
